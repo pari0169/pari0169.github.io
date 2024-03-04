@@ -1,0 +1,154 @@
+/* A sign to set the browser padding that covers all elements.*/
+* {
+    box-sizing: border-box;
+}
+
+/* styling for the body part of the site. It is positioned at a distance of 1 rem from the top and 12 rem from the right side of the website. */
+body {
+    margin: 1rem 12rem;
+    padding: 0;
+    background: #CCD3CA;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Background Color. It also has a negative right margin of -2, meaning the main part expands by an additional 2 rem.*/
+/* */
+.bgcolor {
+    background: #B5C0D0;
+    margin: 5px -2rem 0px;
+}
+
+/* A gap appears between the header and main background, so it needed a negative margin to cover that gap. */
+.margin1 {
+    margin-top: -3rem;
+}
+
+/* A margin left and right was needed to prevent the content be messy. */
+.margin2 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/* Makes the h2 element gets a bit down. */
+.margin3 {
+    margin-top: 3rem;
+}
+
+/* Make a distance between the email address form and heading 4.*/
+.padding1 {
+    padding: 1rem;
+}
+
+
+/* Header */
+/* Position relative is for the text gets in the middle of the image in the header.*/
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 20rem;
+}
+
+/* The absolute position follows the relative position and we can add top and left section to the site. The translate method moves the target element into a right position.*/
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* margin: 9rem 20rem; */
+}
+
+.img {
+    width: 100%;
+}
+
+/* Nav */
+/* In order to remove the lists bullet*/
+header ul {
+    list-style: none;
+}
+
+/* To remove the underline in texts.*/
+header a {
+    text-decoration: none;
+    color: inherit;
+    padding: 1rem 8rem;
+}
+
+/* To make the whole content of ul and nav that are in header in a row.*/
+header>nav>ul {
+    display: flex;
+}
+
+/* Makes all ul in header be in relative position, it means in a normal position.*/
+header>nav>ul>li {
+    padding: 1rem;
+    position: relative;
+}
+
+/*To create | sign for the menu. */
+.borderRight {
+    border-right: 1px solid black;
+}
+
+/* Main */
+/* Float makes the paragraph texts be next to the given picture.*/
+.img1 {
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+/* Creates a gap between the row that are in one paragraph in this site.*/
+.height1 {
+    line-height: 1.4rem;
+}
+
+/* Form */
+/* Width 108% to make the box a bit larger than the full size. Display inline-block to make all contents has this class the sit next to other elements. Also we use border radius to appear a circle corner for the boxes */
+
+.form1 {
+    width: 108%;
+    padding: 12px 20px;
+    margin: 8px 26px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+.formMargin {
+    margin: 1rem 9rem 1rem 1rem;
+}
+
+
+.message {
+    width: 108%;
+    padding: 40px 16px;
+    margin: 10px 26px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Border to make a box.*/
+.border {
+    display: inline-block;
+    border: 1px solid black;
+}
+
+/* Text algin to make the texts in a center position.*/
+.sendBtn {
+    width: 50px;
+    text-align: center;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    padding: 2.2px;
+    border: 1px solid #000000;
+}
+
+/* Footer */
+.foot {
+    height: 4rem;
+    margin-top: -1rem;
+    text-align: right;
+}
