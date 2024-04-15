@@ -1,194 +1,471 @@
 <!DOCTYPE html>
 <html lang="zxx">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/87bd4c59e3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    
     <title>pari0169 final</title>
 </head>
+
 <body>
+
     <header>
         <!-- a navigation for header that includes logo, 5 links and a search bar -->
-        <nav class="nav">
-            
-            
-                <img src="images/logo.png" alt="logo" class="logo">
-                <a href="#">Home</a>
-                <a href="#">About Us</a>
-                <a href="#">Services</a>
-                <a href="#">Team</a>
-                <a href="#">Contact</a>
-                <div class="srch">
-                    Search
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
-        </nav>
+
+        <div class="parent">
+            <div class="child">
+                <img src="images/logo.png" alt="logo">
+            </div>
+            <div class="child">Home</div>
+            <div class="child">About Us</div>
+            <div class="child">Services</div>
+            <div class="child">Team</div>
+            <div class="child">Contact</div>
+            <div class="search-container">
+                <form action="/action_page.php" class="search1">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </div>
     </header>
+
+
     <!-- container has a white background color -->
-    <main class="container">
-        <div>
-            <!-- includes main heading, a paragraph and a button -->
-            <div>
-
-               <h1>
-                   Welcome to Three Ster Media
-               </h1>
-               <p>
-                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi laborum autem quae cupiditate ipsam sequi qui corrupti libero        necessitatibus, consequuntur, iusto quo praesentium quasi molestiae architecto assumenda doloremque. Quasi, temporibus!
-               </p>
-               <div>
-                   Conact with us
-               </div>
+    <main>
+        <div class="banner-image1">
+            <div class="pt1">
+                <div class="welcome-background">
+                    <h1 class="margin-1">Welcome to Three Star Media</h1>
+                    <p class="margin-1">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quas laborum obcaecati saepe
+                        consequuntur ex, fugiat quaerat pariatur ullam ipsa? Illo excepturi porro voluptatem ad temporibus
+                        distinctio. Ducimus, deleniti totam!
+                    </p>
+                    <div class="btn1 margin-1">
+                        Connect with us
+                        <i class="fa-solid fa-caret-right"></i>
+                    </div>
+                </div>
+            
             </div>
         </div>
+
         <!-- contains second heading, background color, a picture and a paragraph -->
-        <div class="bg1">
-            <img src="images/about-us.jpg" alt="">
-            <h2>
-                About us
-            </h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit perspiciatis laborum nobis beatae consectetur, quisquam impedit, sequi ducimus non corrupti, aut culpa dolore. Ducimus beatae eaque tenetur rem similique facilis!
-                Enim quaerat voluptatum nobis veniam accusamus dolores modi exercitationem consequuntur facilis id porro ea officiis accusantium cupiditate reprehenderit eaque, molestias fuga corrupti nemo? Cum quasi veniam deserunt optio, perspiciatis vitae?
-                Sunt tenetur quos fugit quaerat vero laboriosam totam delectus id in! Voluptatum illo, tenetur, soluta aut eum incidunt delectus, saepe quae dolores eaque fugit beatae nobis inventore! Consequatur, ipsa recusandae?
-            </p>
+
             <!-- includes 5 grids that 2 of them are in a one row and 3 other are in the different row. -->
-            <h2>Our Services</h2>
+
+
+
+        <div class="m4">
+
+            <div class="flex-container bg5">
+                <div class="flex-item">
+                    <img src="images/about-us.jpg" alt="about">
+                </div>
+    
+    
+    
+                <div class="flex-item">
+                    <h2>
+                        about Us
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti corporis incidunt, animi rerum, totam excepturi magni magnam veritatis eum suscipit ducimus necessitatibus nam error eligendi illo recusandae ex sapiente tempore.
+                        Quo excepturi unde quos omnis veritatis, itaque, perferendis error molestiae, similique enim ea impedit nemo? Expedita explicabo in distinctio error, animi illum ipsam velit dicta, impedit iure, qui vero porro!
+                    </p>
+    
+                </div>
+    
+    
+    
+    
+    
+            </div>
+
         </div>
 
-            <div class="field field-1">
-              <div class="block">
-                <img src="images/digital.jpg" alt="">
-                <h3>Digital Transformation</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, numquam. Quod id repellendus eum tempora dolorem. Ratione accusantium aspernatur iste quod natus qui asperiores eos recusandae reprehenderit nesciunt. Libero, earum?
-                Iure, dolorum vel. Quia facere tempora provident praesentium dolorem dolor soluta fugit magnam laudantium odit similique ut fuga in, tenetur consequuntur animi nulla ipsam rem eveniet eos et, voluptatem vitae?</p>
-                <div class="btn1">Digital Plans
-                    <i class="fa-solid fa-caret-right"></i>
+
+
+
+
+        <div class="m4"> 
+            <h2>Our Services</h2>
+
+            <div class="grid-container">
+                <div class="grid-item bg5">
+                    <div>
+                        <img src="images/digital.jpg" alt="digital" class="img3">
+                    </div>
+                    <h3 class="ms1 m6">
+                        Digital Transformation
+                    </h3>
+                    <p class="ms1 m6">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, ipsum saepe porro dignissimos eos debitis ullam obcaecati sint laborum quas consequatur, libero ex voluptatibus veritatis voluptatum? Sunt non dicta molestiae.
+                        Vitae molestias placeat sed atque? Quae voluptates sequi sed temporibus deleniti praesentium ad corporis dicta non amet vel, reiciendis quam iusto porro numquam rerum minima ea quia libero quod doloribus.
+                    </p>
+                    <div class="brdr ms1 m6 p1 m7">
+                        <a href="#" class="a2">
+                            Digital Plans
+                        </a>
+
+                        <i class="fa-solid fa-caret-right"></i>
+                    </div>
+                    
+                
+    
+    
                 </div>
-              </div>
-              <div class="block">
-                <img src="images/marketing.jpg" alt="">
-                <h3>Maketing</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, numquam. Quod id repellendus eum tempora dolorem. Ratione accusantium aspernatur iste quod natus qui asperiores eos recusandae reprehenderit nesciunt. Libero, earum?
-                Iure, dolorum vel. Quia facere tempora provident praesentium dolorem dolor soluta fugit magnam laudantium odit similique ut fuga in, tenetur consequuntur animi nulla ipsam rem eveniet eos et, voluptatem vitae?</p>
-                <div class="btn2">Marketing Plans
-                    <i class="fa-solid fa-caret-right"></i>
+
+
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+
+
+                <div class="grid-item bg5">
+                    <div>
+                        <img src="images/marketing.jpg" alt="marketing" class="img3">
+                    </div>
+                    <h3 class="ms1 m6">
+                        Marketing
+                    </h3>
+                    <p class="ms1 m6">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, ipsum saepe porro dignissimos eos debitis ullam obcaecati sint laborum quas consequatur, libero ex voluptatibus veritatis voluptatum? Sunt non dicta molestiae.
+                        Vitae molestias placeat sed atque? Quae voluptates sequi sed temporibus deleniti praesentium ad corporis dicta non amet vel, reiciendis quam iusto porro numquam rerum minima ea quia libero quod doloribus.
+                    </p>
+                    <div class="brdr ms1 m6 p1 m7">
+                        <a href="#" class="a2">
+                            Marketing Plans
+
+                        </a>
+
+                        <i class="fa-solid fa-caret-right"></i>
+                    </div>
                 </div>
-              </div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+
+
+                <div class="grid-item bg5">
+                    <div>
+                        <img src="images/video.jpg" alt="video" class="img3">
+                    </div>
+                    <h3 class="ms1 m6">
+                        Video
+                    </h3>
+                    <p class="ms1 m6">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, ipsum saepe porro dignissimos eos debitis ullam obcaecati sint laborum quas consequatur, libero ex voluptatibus veritatis voluptatum? Sunt non dicta molestiae.
+                        Vitae molestias placeat sed atque? Quae voluptates sequi sed temporibus deleniti praesentium ad corporis dicta non amet vel, reiciendis quam iusto porro numquam rerum minima ea quia libero quod doloribus.
+                    </p>
+                    <div class="brdr ms1 m6 p1 m7">
+                        <a href="#" class="a2">
+                            Video Plans
+                        </a>
+
+                        <i class="fa-solid fa-caret-right"></i>
+                    </div>
+                </div>
+                <div class="grid-item"></div>
+                <div class="grid-item bg5">
+                    <div>
+                        <img src="images/web.jpg" alt="web" class="img3">
+                    </div>
+                    <h3 class="ms1 m6">
+                        Web Development
+                    </h3>
+                    <p class="ms1 m6">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, ipsum saepe porro dignissimos eos debitis ullam obcaecati sint laborum quas consequatur, libero ex voluptatibus veritatis voluptatum? Sunt non dicta molestiae.
+                        Vitae molestias placeat sed atque? Quae voluptates sequi sed temporibus deleniti praesentium ad corporis dicta non amet vel, reiciendis quam iusto porro numquam rerum minima ea quia libero quod doloribus.
+                    </p>
+                    <div class="brdr ms1 m6 p1 m7">
+                        <a href="#" class="a2">
+                            Web Plans
+                        </a>
+
+                        <i class="fa-solid fa-caret-right"></i>
+                    </div>
+                </div>
+                <div class="grid-item"></div>
+                <div class="grid-item bg5">
+                    <div>
+                        <img src="images/print.jpg" alt="print" class="img3">
+                    </div>
+                    <h3 class="ms1 m6">
+                        Print
+                    </h3>
+                    <p class="ms1 m6">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, ipsum saepe porro dignissimos eos debitis ullam obcaecati sint laborum quas consequatur, libero ex voluptatibus veritatis voluptatum? Sunt non dicta molestiae.
+                        Vitae molestias placeat sed atque? Quae voluptates sequi sed temporibus deleniti praesentium ad corporis dicta non amet vel, reiciendis quam iusto porro numquam rerum minima ea quia libero quod doloribus.
+                    </p>
+                    <div class="brdr ms1 m6 p1 m7">
+                        <a href="#" class="a2">
+                            Print Plans
+                        </a>
+                        <i class="fa-solid fa-caret-right"></i>
+                    </div>
+                </div>
+                <div class="grid-item"></div>
+
+                </div>
+
             </div>
-            <div class="field field-2">
-              <div class="block">                <img src="images/video.jpg" alt="">
-                <h3>Video production</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, numquam. Quod id repellendus eum tempora dolorem. Ratione accusantium aspernatur iste quod natus qui asperiores eos recusandae reprehenderit nesciunt. Libero, earum?
-                Iure, dolorum vel. Quia facere tempora provident praesentium dolorem dolor soluta fugit magnam laudantium odit similique ut fuga in, tenetur consequuntur animi nulla ipsam rem eveniet eos et, voluptatem vitae?</p>
-                <div class="btn3">Video Plans
-                    <i class="fa-solid fa-caret-right"></i>
-                </div></div>
-              <div class="block">                <img src="images/web.jpg" alt="">
-                <h3>Maketing</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, numquam. Quod id repellendus eum tempora dolorem. Ratione accusantium aspernatur iste quod natus qui asperiores eos recusandae reprehenderit nesciunt. Libero, earum?
-                Iure, dolorum vel. Quia facere tempora provident praesentium dolorem dolor soluta fugit magnam laudantium odit similique ut fuga in, tenetur consequuntur animi nulla ipsam rem eveniet eos et, voluptatem vitae?</p>
-                <div class="btn4">Web Plans
-                    <i class="fa-solid fa-caret-right"></i>
-                </div></div>
-              <div class="block">                <img src="images/print.jpg" alt="">
-                <h3>Maketing</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, numquam. Quod id repellendus eum tempora dolorem. Ratione accusantium aspernatur iste quod natus qui asperiores eos recusandae reprehenderit nesciunt. Libero, earum?
-                Iure, dolorum vel. Quia facere tempora provident praesentium dolorem dolor soluta fugit magnam laudantium odit similique ut fuga in, tenetur consequuntur animi nulla ipsam rem eveniet eos et, voluptatem vitae?</p>
-                <div class="btn5">Print Plans
-                    <i class="fa-solid fa-caret-right"></i>
-                </div></div>
-            </div>
-            <!-- contains a background image, a third heading, a paragraph and a button. -->
-            <div>
-                <h3>Our Vision</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia maxime non beatae officiis itaque amet illum, voluptatum quia repudiandae laudantium quas nobis tempore sed veniam, consectetur id, ex tenetur ipsa!</p>
-                <div class="bg4">
+
+        
+
+
+
+
+
+
+
+
+        <div class="bg4">
+            <h2 class="m2">
+                Our Vision
+            </h2>
+            <p class="m2">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem quam quas provident nam eaque incidunt cumque non quod enim nulla ipsum inventore maxime expedita quia soluta error, ratione quisquam distinctio.
+            </p>
+            <div class="btn7">
+                <a href="#" class="a2">
                     Learn More
-                    <i class="fa-solid fa-caret-right"></i>
-                </div>
+                </a>
+  
+                <i class="fa-solid fa-caret-right"></i>
             </div>
-            <!-- includes 4 grids that 2 of them are in one row and 2 others are in a different row. -->
-            <h2>Our Team</h2>
-            <div class="field field-3">
-                <div class="block">
-                    <img src="images/john.jpg" alt="">
-                </div>
-                <div class="block">
-                    <h4>
-                        John Doe
-                    </h4>
-                    <h5>
-                        CEO and Co-owner
-                    </h5>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nisi quibusdam rerum perspiciatis dolor placeat numquam ipsam alias? Laboriosam voluptas saepe libero repellendus ducimus aliquam dignissimos quod voluptatem, consequuntur unde!
-                    </p>
-                </div>
-              </div>
-              <div class="field field-4">
-                <div class="block">
-                    <img src="images/bob.jpg" alt="">
-                </div>
-                <div class="block">
-                    <h4>
-                        Bob Rite
-                    </h4>
-                    <h5>
-                        CEO and Co-owner
-                    </h5>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nisi quibusdam rerum perspiciatis dolor placeat numquam ipsam alias? Laboriosam voluptas saepe libero repellendus ducimus aliquam dignissimos quod voluptatem, consequuntur unde!
-                    </p>
-                </div>
-              </div>
-              <!-- includes 2 grids, one is a sending message part and one is a map. -->
-              <h2>
-                Contact Us
-              </h2>
-              <div class="field field-5">
-                <div class="block">
-                    <h4>Send us a message</h4>
-                    <div>
-                        <p>Full Name</p>
-                        <div class="brdr1"></div>
+
+        </div>
+
+
+
+
+
+
+        <!-- includes 4 grids that 2 of them are in one row and 2 others are in a different row. -->
+   <div class="m4">
+    <h2>Our Team</h2>
+    <div class="grid-container2" >
+
+        <div class="grid-item2">
+            <div>
+                <img src="images/john.jpg" alt="john" class="img3">
+        </div>
+        </div>
+        <div class="grid-item2 bg5">
+            <div class="ms1">
+                <h3>
+                    John doe
+                </h3>
+                <h4 class="h4">
+                    Co Worker
+                </h4>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus, voluptatem veniam animi blanditiis perspiciatis ex porro aspernatur est nesciunt dolorem expedita aperiam itaque inventore, impedit assumenda labore aut reiciendis culpa.
+                </p>
+
+            </div>
+         
+
+
+        </div>
+        <div class="grid-item2 bg5">
+            <div class="ms1">
+                <h3>
+                    John doe
+                </h3>
+                <h4 class="h4">
+                    Co Worker
+                </h4>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus, voluptatem veniam animi blanditiis perspiciatis ex porro aspernatur est nesciunt dolorem expedita aperiam itaque inventore, impedit assumenda labore aut reiciendis culpa.
+                </p>
+
+            </div>
+            
+
+        
+        </div>
+        <div class="grid-item2">
+            <div>
+                <img src="images/bob.jpg" alt="john" class="img3">
+        </div>
+        </div>
+    </div>
+   </div>
+
+
+
+    
+
+        <!-- includes 2 grids, one is a sending message part and one is a map. -->
+        <div class="m4">
+            <div class="grid-container3">
+
+                <div class="grid-item3">
+                    <h3>Contact Us</h3>
+                    <div class="m5">
+                        Full Name 
+                        <div class="brdr1 m5">
+
+                            
+                        </div>
+
+
+
+
                     </div>
-                    <div>
-                        <p>Email</p>
-                        <div class="brdr2"></div>
+
+
+
+                    <div class="m5">
+                        Email
+                        <div class="brdr1 m5">
+
+                            
+                        </div>
+
+
+
+
                     </div>
-                    <div>
-                        <p>Message</p>
-                        <div class="brdr3"></div>
+
+                    <div class="m5">
+                        Message 
+                        <div class="brdr2 m5">
+
+                            
+                        </div>
+
+
+
+
                     </div>
+
+
+                    <div class="m5">
+                        <div class="brdr3 m5">
+                            Send
+                            
+                        </div>
+
+
+
+
+                    </div>
+
+
+
+
+
+                    
+
+
+
+
+
+
+
+
 
 
                 </div>
 
 
-                <div class="block">
+
+
+                <div class="grid-item3">
                     <h4>Location</h4>
-                    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.9444602850713!2d-75.7597966119032!3d45.34993339648448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1711373386147!5m2!1sen!2sca"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22431.555641255676!2d-75.79303452568361!3d45.34993349999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1713133780319!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-              </div>
-              <!-- contains a table of hours of operation -->
-              <h3>Hours of operation</h3>
-              <div>
-                <table>
-                    <tr>
-                      <td>Days</td>
-                      <td>Hours</td>
-                    </tr>
-                    <tr>
-                      <td>Monday - Friday</td>
-                      <td>9 AM - 6 PM</td>
-                    </tr>
-                    <tr>
-                      <td>Saturday - Sunday</td>
-                      <td>Closed</td>
-                    </tr>
-                  </table>
-              </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+    
+        
+
+        <!-- contains a table of hours of operation -->
+        <div class="m4">
+            <h3>Hours of operation</h3>
+            <table>
+                <tr>
+                    <th><div class="cell-content">Days</div></th>
+                    <th><div class="cell-content">Hours</div></th>
+                </tr>
+                <tr>
+                  <td><div class="cell-content">Monday - Friday</div></td>
+                  <td><div class="cell-content">9 AM - 6 PM</div></td>
+                </tr>
+                <tr>
+                  <td><div class="cell-content">Saturday - Sunday</div></td>
+                  <td><div class="cell-content">Clo</div></td>
+                </tr>
+
+              </table>
+        </div>
 
 
 
@@ -196,12 +473,13 @@
 
     </main>
     <!-- footer of the site that has a copyright information and a link. -->
-    <footer>
+    <footer class="m8">
         <p>© Copyright Three Star Media, 2020</p>
-        <p>All images are taken from <a href="#">Unsplash</a></p>
-        
+        <p>All images are taken from <a href="#" class="a1">Unsplash</a></p>
+
 
     </footer>
-    
+
 </body>
+
 </html>
